@@ -1,13 +1,19 @@
 const http = require('http');
 const fs = require('fs')
 
-const hostname = '0.0.0.0';
+var express = require('express');
+var router = express.Router();
+
+var app = express()
+
+const hostname = '127.0.0.1' || "0.0.0.0"
 const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'content-type': 'text/html' })
   fs.createReadStream('index.html').pipe(res)
 })
+
 
 server.listen(process.env.PORT || 3000, hostname, () => {
   console.log(`Server running at http://${hostname}:${PORT}/`);
