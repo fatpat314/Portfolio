@@ -1,8 +1,10 @@
 {
-  "name": "portfolio",
-  "description": "a really cool app",
+  "name": "my-project",
   "version": "1.0.0",
-  "engines": {
-    "node": "12.16.1"
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
