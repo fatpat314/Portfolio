@@ -676,8 +676,29 @@ html,body {
     background-color: #2d3640
 }
 
+#projectFive{
+    background-color: #3c4755
+}
+
+#projectSix{
+    background-color: #2d3640
+}
+
+#projectSeven{
+    background-color: #3c4755
+}
+
+#projectEight{
+    background-color: #2d3640
+}
+
 #contact {
     background: #3c4755;
+    padding-bottom: 70px;
+}
+
+#music {
+    background-color: #2d3640
     padding-bottom: 70px;
 }
 
