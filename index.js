@@ -1,12 +1,8 @@
 const http = require('http');
 const fs = require('fs')
 
-// var express = require('express');
-// var router = express.Router();
 
-// var app = express()
-
-const hostname = "0.0.0.0" //'127.0.0.1'
+const hostname = "0.0.0.0" 
 const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
